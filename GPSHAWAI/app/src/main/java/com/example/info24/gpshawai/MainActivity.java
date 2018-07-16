@@ -329,8 +329,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void Actualizar() {
-        //  String url = "http://www.info24.com.co/phpconcord/actualizarEM.php?cedula=" + CEDULA.getText();
-        String url = "http://www.info24.com.co/phpconcord/inserbucaramanga.php";
+    
+        String url = "http://127.0.0.1/ruta_archivos/inserbucaramanga.php";
         StringRequest request = new StringRequest(Request.Method.POST, url, new Response.Listener<String>() {
             @Override
             public void onResponse(String response) {
